@@ -1081,7 +1081,7 @@ break
 //══════════[ SEWA DLL ]══════════//
 
 case 'sewabot':
-case 'sewa'
+case 'sewa':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
 menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
